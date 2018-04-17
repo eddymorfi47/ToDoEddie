@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Formulario DB</string>
+    <string name="action_settings">Settings</string>
+    <string name="test">Nombre</string>
+    <string name="nombre">Nombre</string>
+    <string name="actividad">Actividad</string>
+
+    <string name="error_valid">Se produjo un error</string>
+
+
+</resources>

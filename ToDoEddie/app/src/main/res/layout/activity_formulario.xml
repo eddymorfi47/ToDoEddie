@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/colorAccent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/lblNombre"
+        android:layout_marginTop="95dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nombre"
+        android:textAlignment="center"
+        android:textSize="36sp"
+        android:textColor="#fff"/>
+
+    <EditText
+        android:id="@+id/txtNombre"
+        android:layout_marginTop="30dp"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:hint="Escriba su Nombre."
+        android:textColor="#fff"
+        android:textColorHint="#fff" />
+
+    <TextView
+        android:id="@+id/lblActividad"
+        android:textColor="#fff"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/actividad"
+        android:textAlignment="center"
+        android:textSize="36sp" />
+
+    <EditText
+        android:id="@+id/txtActividad"
+        android:layout_marginTop="30dp"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:hint="Escriba una Actividad."
+        android:textColor="#fff"
+        android:textColorHint="#fff" />
+
+    <Button
+        android:id="@+id/btnGuardar"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@color/colorPrimary"
+        android:text="Guardar Datos"
+        android:textColor="#fff"
+        android:onClick="onClick"/>
+
+</LinearLayout>
